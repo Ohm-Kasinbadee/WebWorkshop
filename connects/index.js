@@ -23,5 +23,15 @@ router.get('/contacts', (req, res) => {
     res.json(My_DataBase)    
   }
 })
+//Develop POST /contacts API to create new contact
+router.post('/contacts', (req, res) => {
+  My_DataBase.push(req.body)
+  res.status(201).json(req.body)
+})
+
+//Develop GET /contact/:id API to get contact information
+router.get('/contacts/:id', (req, res) => {
+  res.json(My_DataBase.find(contacts => contacts.id === req.params.id))
+})
 
 module.exports = router 
