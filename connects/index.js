@@ -40,5 +40,12 @@ router.put('/contacts/:id', (req, res) => {
   res.json(Object.assign(My_DataBase[updateIndex], req.body))
 })
 
+//Develop DELETE /contacts/:id API to remove contact from list
+router.delete('/contacts', (req, res) => {
+  const deletedIndex = My_DataBase.findIndex(contacts => contacts.id === req.params.id)
+  My_DataBase.splice(deletedIndex, 1)
+  res.status(204).send()
+})
+
 
 module.exports = router 

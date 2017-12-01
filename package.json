@@ -15,7 +15,7 @@
     "url": "https://github.com/omekuzco/WebWorkshop/issues"
   },
   "homepage": "https://github.com/omekuzco/WebWorkshop#readme",
-  "description": "58660001 นายกสิณบดี วงศ์ทองเหลือ 58160093 นายสมรักษ์ ผ่องประโยชน์ 58160069 นายฑศพล ไวยเนตร",
+  "description": "58660001 นายกสิณบดี วงศ์ทองเหลือ 58160093 นายสมรักษ์ ผ่องประโยชน์ 58160069 นายฑศพล ไวยเนตร 58160554 นายกฤษณพงศ์ ฝอยทอง ",
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
