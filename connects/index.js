@@ -34,4 +34,11 @@ router.get('/contacts/:id', (req, res) => {
   res.json(My_DataBase.find(contacts => contacts.id === req.params.id))
 })
 
+//Develop PUT /contact/:id API to update contact information  
+router.put('/contacts/:id', (req, res) => {
+  const updateIndex = My_DataBase.findIndex(contacts => contacts.id === req.params.id)
+  res.json(Object.assign(My_DataBase[updateIndex], req.body))
+})
+
+
 module.exports = router 
