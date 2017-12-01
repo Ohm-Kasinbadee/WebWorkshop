@@ -1,0 +1,24 @@
+{
+  "name": "webworkshop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omekuzco/WebWorkshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omekuzco/WebWorkshop/issues"
+  },
+  "homepage": "https://github.com/omekuzco/WebWorkshop#readme",
+  "description": "58660001 นายกสิณบดี วงศ์ทองเหลือ 58160069 นาย ฑศพล ไวยเนตร",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {}
+}
